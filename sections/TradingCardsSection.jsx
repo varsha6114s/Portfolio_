@@ -238,13 +238,13 @@ const TradingCardsSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-            Developer{' '}
+            Featured{' '}
             <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Trading Cards
+              Projects
             </span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Collect them all! Each project is a unique card showcasing skills, achievements, and tech mastery.
+            Explore my portfolio of AI/ML and Full Stack projects, each showcasing technical expertise, innovative solutions, and measurable impact.
           </p>
         </motion.div>
 

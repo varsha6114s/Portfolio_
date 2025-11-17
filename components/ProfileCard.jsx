@@ -29,12 +29,13 @@ const ProfileCard = () => {
             <div className="flex-shrink-0">
               <div className="relative">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-spin-slow blur-lg"></div>
-                <div className="relative w-[280px] h-[320px] rounded-2xl overflow-hidden border-4 border-white/30 bg-gradient-to-br from-purple-900 to-blue-900">
+                <div className="relative w-[280px] h-[320px] rounded-2xl overflow-hidden border-4 border-white/50 dark:border-white/30 bg-white dark:bg-gradient-to-br dark:from-purple-900 dark:to-blue-900 shadow-2xl">
                   {/* Profile photo */}
                   <img 
                     src="/varsha.jpg" 
                     alt="Varsha S" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-center"
+                    style={{ imageRendering: 'crisp-edges' }}
                   />
                 </div>
               </div>
