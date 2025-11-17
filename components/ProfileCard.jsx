@@ -32,7 +32,7 @@ const ProfileCard = () => {
                 <div className="relative w-[280px] h-[320px] rounded-2xl overflow-hidden border-4 border-white/50 dark:border-white/30 bg-white dark:bg-gradient-to-br dark:from-purple-900 dark:to-blue-900 shadow-2xl">
                   {/* Profile photo */}
                   <img 
-                    src="/varsha.jpg" 
+                    src={`${import.meta.env.BASE_URL}varsha.jpg`}
                     alt="Varsha S" 
                     className="w-full h-full object-cover object-center"
                     style={{ imageRendering: 'crisp-edges' }}
